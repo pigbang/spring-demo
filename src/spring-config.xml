@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config/>
+    <!-- bean definitions go here -->
+
+</beans>
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+        <!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+        <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+        <!--xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+        <!--&lt;!&ndash;<bean id="helloSpring" class="com.qunechi.HelloSpring" scope="prototype" init-method="init" destroy-method="destroy">&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="message" value="Hello,Spring!"></property>&ndash;&gt;-->
+        <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+        <!--&lt;!&ndash;<bean id="benaTeamplate" abstract="true">&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="message1" value="Hello Spring1!"></property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="message2" value="Hello Spring2!"></property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="message3" value="Hello Spring3!"></property>&ndash;&gt;-->
+        <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<bean id="helloJava" class="com.qunechi.HelloJava" parent="benaTeamplate">&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="message1" value="Hello Java1!"></property>&ndash;&gt;-->
+        <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+
+
+
+        <!--<bean id="textEditor" class="com.qunechi.TextEditor">-->
+        <!--<constructor-arg ref="spellChecker" />-->
+        <!--</bean>-->
+
+        <!--<bean id="spellChecker" class="com.qunechi.SpellChecker"></bean>-->
+        <!--</beans>-->
